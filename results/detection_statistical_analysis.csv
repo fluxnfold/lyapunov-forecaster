@@ -1,0 +1,4 @@
+method1,method2,method1_mean,method1_std,method2_mean,method2_std,wilcoxon_statistic,wilcoxon_p,mannwhitney_statistic,mannwhitney_p,ttest_statistic,ttest_p,cohens_d,effect_size_interpretation,significant,Scenario
+SVM,RF,0.0,0.0,1.0,0.0,0.0,0.001953125,0.0,1.593791168806624e-05,-inf,0.0,0.0,negligible,True,Small (5%)
+SVM,RF,0.7434584716419325,0.0037955663013449405,1.0,0.0,0.0,0.001953125,0.0,6.294387081562153e-05,-202.7693693037294,8.779318739928938e-18,-90.68121870357965,large,True,Medium (10%)
+SVM,RF,0.0,0.0,1.0,0.0,0.0,0.001953125,0.0,1.593791168806624e-05,-inf,0.0,0.0,negligible,True,Large (15%)

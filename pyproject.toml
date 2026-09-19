@@ -1,0 +1,18 @@
+[project]
+name = "lyapunov-forecaster"
+version = "0.1.0"
+description = "Reconstruction methods for chaotic time series (Takens embedding, GPR, EKF, particle filter, EM, deep learning)."
+requires-python = ">=3.11"
+dependencies = [
+    "numpy",
+    "pandas",
+    "scipy",
+    "scikit-learn",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["restoration", "reconstruction_methods", "core"]
